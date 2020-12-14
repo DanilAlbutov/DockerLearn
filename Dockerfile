@@ -21,7 +21,7 @@ RUN rails new /app --database=postgresql --skip-spring --skip-turbolinks
 
 
 
-
+#just comment
 
 COPY Gemfile Gemfile.lock  ./
 RUN bundle install --jobs 5
